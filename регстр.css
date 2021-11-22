@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  background-image: url(./цвета.jpg);
+  width: 100%;
+  height: 80vh;
+  padding-top: 20vh;
+  background-size: cover;
+}
+.header {
+  height: 50px;
+  width: 100%;
+}
+.header a {
+  font-size: 26px;
+  padding-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.reg {
+  background-color: whitesmoke;
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+.log {
+  background-color: #8032e4;
+  color: white;
+  width: 50%;
+  height: 100%;
+  float: right;
+  text-align: center;
+}
+form {
+  padding: 20px;
+  clear: both;
+}
+input {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  margin: 10px;
+  border: 1px solid rgb(204, 204, 204);
+}
+input:focus {
+  outline: 0;
+  border: 1px solid #b176ff;
+}
+#id {
+  background: url(./регстр.jpg) no-repeat 3px 1px;
+  background-size: auto 90%;
+}
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 0;
+}
+label {
+  font-size: 12px;
+}
+button {
+  background-color: #8032e4;
+  color: ghostwhite;
+}
+button:hover {
+  background-color: ghostwhite;
+  color: #8032e4;
+}
+.form-container {
+  width: 400px;
+  background: whitesmoke;
+  margin: 0 auto;
+}
